@@ -326,27 +326,34 @@ img {
     margin-right: var(--mb-2);
     margin-bottom: var(--mb-3);
     padding: .25rem .5rem;
-    background-color: var(--white-color);
+    background-color: #007e4e;
+    color: var(--white-color);
     border-radius: .25rem;
+    cursor: pointer;
 }
 
 .skills__name:hover {
-    background-color: var(--first-color);
+    background-color: #044b24;
     color: var(--white-color);
 }
 
-.skills__name.java:hover {
+.skills__name.java {
     background-color: #af0404;
     color: var(--white-color);
 }
 
-.skills__name.javaScript:hover {
+.skills__name.javaScript {
     background-color: #c79800;
     color: var(--white-color);
 }
 
-.skills__name.jpa:hover {
-    background-color: #012086;
+.skills__name.jpa {
+    background-color: #004381f1;
+    color: var(--white-color);
+}
+
+.skills__name.xd {
+    background-color: #610d34f1;
     color: var(--white-color);
 }
 
